@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.content{
+    position: relative;
+    left: 5%;
+    box-sizing: border-box;
+    width: 95%;
+}
+
+.blog,
+.side-pannel,
+.auther {
+	display: inline-block;
+}
+
+/* header styling */
+
+.logo image {
+	width: 15vw;
+}
+
+.logo {
+	margin: 10px 0px;
+}
+.site-header a {
+	font-size: 1.83rem;
+	font-weight: 700;
+}
+.main-image figcaption {
+	margin: 10px 0px;
+}
+
+/* Auther-styling */
+.auther {
+	width: 15%;
+	height: 20vh;
+}
+
+.auther p{
+    display: inline;
+    padding: 7px 0px;
+}
+
+/* Content-styling */
+
+.blog {
+	width: 60%;
+	vertical-align: top;
+}
+
+#blog-header {
+    
+	font-size: 40px;
+	margin: 30px 0px;
+}
+
+#blog-header:hover {
+	color: rgb(56, 56, 56);
+}
+
+.blog-image span {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0px 2px;
+}
+
+/* point-list */
+
+.blog ol{
+    margin-left: 20px;
+}
+.blog b{
+    padding: 15px 0px;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.blog p{
+    margin: 15px 0px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* aside */
+
+.side-pannel {
+    right: 0px;
+	width: 22%;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: top;
+	padding: 2px;
+}
+
+.side-pannel ul{
+    margin-left: 20px;
+}
+.side-pannel li{
+    font-size: 22px;
+    
+}
+.side-pannel a{
+    color: orangered;
+}
+.side-pannel a:hover{
+    color: black;
+}
+
+/* subscribe-form */
+#subscribe-form label{
+    display: block;
+}
+.widget {
+	padding: 20px 0px;
+	border-top: 3px solid black;
+}
+
+.widget-title {
+	margin: 20px 0px;
+	font-size: 1.2em;
+	font-weight: 600;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+}
+
+#subscribe-form input {
+	margin-bottom: 15px;
+	padding: 5px 7px;
+	border-radius: 5px;
+}
+
+.widget .sub-btn {
+	padding: 12px 20px;
+	color: antiquewhite;
+	background-color: rgb(26, 25, 25);
+	letter-spacing: 3px;
+	border-radius: 5px;
+}
+
+/* search */
+
+#search-input{
+    display: inline-block;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+#search input {
+	padding: 5px 7px;
+	border-radius: 5px;
+    
+}
+
+#search button {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000013_1549319004_search-icon.png);
+	background-color: black;
+	background-size: contain;
+    vertical-align: top;
+    border-start-end-radius: 5px;
+    border-end-end-radius: 5px;
+}

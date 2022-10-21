@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.rel{
+                padding: 100px 20px 0px;
+                border: 1px solid red;
+                width: 600px;
+                height: 300px;
+                position: relative;
+            }
+
+            .normal{
+                width: 400px;
+                height: 200px;
+                border: 1px solid black;
+            }
+
+            .abs{
+                border: 1px solid blue;
+                display: inline;
+                position: absolute;
+
+            }
+           
+		</style>
+	</head>
+	<body>
+		<div class="rel">Position :Relative
+            <div class="normal">
+                Position :None
+                <div class="abs">
+                    Position :Absolute
+                </div>
+            </div>
+
+        </div>
+
+	</body>
+</html>
